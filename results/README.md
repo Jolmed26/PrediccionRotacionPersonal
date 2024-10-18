@@ -1,4 +1,4 @@
-Carpeta con bases de datos limpias y analizadas
+# Resultados de análisis EDA
 
 El análisis EDA permitió detectar errores a corregirse en cada una de sus etapas. Iniciando con la descripción de los datos, se detectó que los índices eran correctos y las variables parecían ser las adecuadas. En total, se contaba con 16 variables y 502 registros, de los cuales no todas tenían el formato correcto. Por tal motivo, las fechas se formatearon siguiendo el formato sugerido por la ISO 8601: año, mes y día. También se convirtieron las columnas de texto a formato string y se rellenaron los campos vacíos con valores NaN. Este proceso parece más adecuado para la etapa de limpieza de datos, pero en este caso fue necesario realizarlo en este punto para obtener la información general de la base de datos.
 
