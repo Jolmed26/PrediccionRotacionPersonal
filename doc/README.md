@@ -8,7 +8,7 @@ Determinar de los algoritmoss supervisados k medias, regresión logística, arbo
 
 # Justificación 💡
 
-Desarrollar un modelo predictivo eficiente de rotación de personal brindará herramientas para realizar mejoras oportunamente y así diminuir este fenómeno.
+Desarrollar un modelo predictivo eficiente de rotación de personal brindará herramientas para realizar mejoras oportunamente y así disminuir este fenómeno.
 
 # Referencias 📚
 
