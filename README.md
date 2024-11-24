@@ -17,25 +17,31 @@ Finalmente, la visualización de datos permitió determinar que los empleados au
 
 # Estructura de repositorio 🗂️
     
-    ├── data                            <- Base de datos original.  
-    |    |── README.md                  <- Descripción general del contenido del directorio.
-    |    └── rotacion_personal.xlsx     <- Base de datos.  
+    ├── data                                        <- Base de datos original.  
+    |    |── README.md                              <- Descripción general del contenido del directorio.
+    |    └── rotacion_personal.xlsx                 <- Base de datos.  
     |      
-    ├── doc                             <- Archivos de texto.
-    |    └──  README.md                 <- Problema, objetivo y justificación del proyecto.
+    ├── doc                                         <- Archivos de texto.
+    |    └──  README.md                             <- Problema, objetivo y justificación del proyecto.
     |
-    ├── results                         <- Base de datos limpia y analizada.  
-    |    └──  README.md                 <- Resultados escritos del análisis EDA.
+    ├── results                                     <- Base de datos limpia y analizada.
+    |    |── EDA_Analisis_sentimientos.ipynb
+    |    |── visual_altair.ipynb 
+    |    └──  README.md                             <- Resultados escritos del análisis EDA.
     |  
-    ├── src                             <- archivos de código.    
-    |    |── EDA.ipynb                  <- Archivo de código con análisis EDA.
-    |    └── README.md                  <- Descripción general del contenido del directorio.
+    ├── src                                         <- archivos de código.    
+    |    |── EDA.ipynb                              <- Archivo de código con análisis EDA.
+    |    |── EDA_Analisis_sentimientos.ipynb
+    |    |── analisis_rotacion_personal.ipynb
+    |    |── analisis_sentimientos.ipynb
+    |    |── visual_altair.ipynb                    <- Archivo de código con análisis EDA implementando graficos de Altair Gallery
+    |    └── README.md                              <- Descripción general del contenido del directorio.
+    |
+    ├── CITATION.md                                 <- Cómo citar el proyecto.  
     |  
-    ├── CITATION.md                     <- Cómo citar el proyecto.  
-    |  
-    ├── CONTRIBUTING.md                 <- Pasos para contribuir al proyecto.  
+    ├── CONTRIBUTING.md                             <- Pasos para contribuir al proyecto.  
     |   
-    ├── LICENSE                         <- MIT License.  
+    ├── LICENSE                                     <- MIT License.  
     |  
-    ├── README.md                       <- Readme file principal con la descripción del proyecto.  
+    ├── README.md                                   <- Readme file principal con la descripción del proyecto.  
    
