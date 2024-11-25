@@ -25,9 +25,12 @@ Finalmente, la visualización de datos permitió determinar que los empleados au
     |    └──  README.md                             <- Problema, objetivo y justificación del proyecto.
     |
     ├── results                                     <- Base de datos limpia y analizada.
-    |    |── EDA.ipynb   
-    |    |── EDA_Analisis_sentimientos.ipynb
-    |    |── visual_altair.ipynb 
+    |    |── EDA
+    |        └──  README.md  
+    |    |── EDA_Analisis_sentimientos
+    |        └──  README.md  
+    |    |── visual_altair
+    |        └──  README.md  
     |    └──  README.md                             <- Resultados escritos del análisis EDA.
     |  
     ├── src                                         <- archivos de código.    
