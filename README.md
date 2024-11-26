@@ -58,35 +58,39 @@ Finalmente, abajo se deja el wordcloud para su visualización:
 
 # Estructura de repositorio 🗂️
     
-    ├── data                                        <- Base de datos original.  
-    |    |── README.md                              <- Descripción general del contenido del directorio.
-    |    └── rotacion_personal.xlsx                 <- Base de datos.  
+    ├── data                                            <- Base de datos original.  
+    |    |── README.md                                  <- Descripción general del contenido del directorio.
+    |    └── rotacion_personal.xlsx                     <- Base de datos.  
     |      
-    ├── doc                                         <- Archivos de texto.
-    |    └──  README.md                             <- Problema, objetivo y justificación del proyecto.
+    ├── doc                                             <- Archivos de texto.
+    |    └──  README.md                                 <- Problema, objetivo y justificación del proyecto.
     |
-    ├── results                                     <- Base de datos limpia y analizada.
-    |    |── EDA
-    |        └──  README.md  
-    |    |── EDA_Analisis_sentimientos
-    |        └──  README.md  
-    |    |── visual_altair
-    |        └──  README.md  
-    |    └──  README.md                             <- Resultados escritos del análisis EDA.
+    ├── results                                         <- Resultados de los análisis realizados.
+    |    |── EDA                                        <- Directorio análisis EDA.
+    |    |   |──  README.md                             <- Resultados escritos del análisis EDA.
+    |    |   └──  rotacion_personal_clean.csv           <- Base de datos limpia resultante de análisis EDA.
+    |    |── analisis_sentimientos                      <- Directorio análisis de texto.
+    |    |   |──  anal_sent_biagram_frec.png            <- Análisis de sentimientos Biagram.
+    |    |   |──  analisis_sent.png                     <- Análisis de sentimientos polaridad.
+    |    |   |──  analisis_sentimientos_Biagram.png     <- Análisis de sentimientos biagrama relaciones.
+    |    |   |──  analisis_sentimientos_wordcloud.png   <- Análisis de sentimientos wordcloud.
+    |    |   └──  README.md                             <- Resultados escritos del análisis de texto.
+    |    |── visual_altair                              <- Directorio visualizaciones interactivas.
+    |        └──  README.md                             <- Resultados escritos de visualizaciones interactivas.
+    |    └──  README.md                                 <- Descripción general del contenido del directorio.
     |  
-    ├── src                                         <- archivos de código.    
-    |    |── EDA.ipynb                              <- Archivo de código con análisis EDA.
-    |    |── EDA_Analisis_sentimientos.ipynb
-    |    |── analisis_rotacion_personal.ipynb
-    |    |── analisis_sentimientos.ipynb
-    |    |── visual_altair.ipynb                    <- Archivo de código con análisis EDA implementando graficos de Altair Gallery
-    |    └── README.md                              <- Descripción general del contenido del directorio.
+    ├── src                                             <- archivos de código.    
+    |    |── EDA.ipynb                                  <- Archivo de código con análisis EDA.
+    |    |── EDA_Analisis_sentimientos.ipynb            <- Archivo de código con análisis EDA de texto.
+    |    |── analisis_sentimientos.ipynb                <- Archivo de código con análisis de texto.
+    |    |── visual_altair.ipynb                        <- Archivo de código con análisis EDA implementando graficos de Altair Gallery
+    |    └── README.md                                  <- Descripción general del contenido del directorio.
     |
-    ├── CITATION.md                                 <- Cómo citar el proyecto.  
+    ├── CITATION.md                                     <- Cómo citar el proyecto.  
     |  
-    ├── CONTRIBUTING.md                             <- Pasos para contribuir al proyecto.  
+    ├── CONTRIBUTING.md                                 <- Pasos para contribuir al proyecto.  
     |   
-    ├── LICENSE                                     <- MIT License.  
+    ├── LICENSE                                         <- MIT License.  
     |  
-    ├── README.md                                   <- Readme file principal con la descripción del proyecto.  
+    ├── README.md                                       <- Readme file principal con la descripción del proyecto.  
    
