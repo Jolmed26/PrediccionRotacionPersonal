@@ -8,7 +8,7 @@ En México la industria manufacturera presenta un alto porcentaje de rotación d
 
 # [Análisis exploratorio de datos (EDA) 🔍](results/EDA)
 
-
+Se ralizó un análisis exploratorio de datos con el objetivo de limpiar el set de datos inicial y detectar variables y relaciones valiosas.
 
 ## Resultados 📝
 
@@ -51,7 +51,7 @@ Del análisis de sentimientos se detectó que la mayoría de párrafos tenían u
 | PARA TRABAJAR EN LA MISMA EMPRESA A LA QUE ENTR...         | 0.350    | 0.65         |
 | PROBLEMA PERSONAL                                          | 0.000    | 0.30         |
 
-Finalmente, abajo se deja el wordcloud para su visualizaicón:
+Finalmente, abajo se deja el wordcloud para su visualización:
 
 <img src="results/analisis_sentimientos/analisis_sentimientos_wordcloud.png" alt="image" width="75%">
 
