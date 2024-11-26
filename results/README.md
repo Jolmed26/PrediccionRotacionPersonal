@@ -10,4 +10,4 @@ Esta carpeta contiene los resultados obtenidos de cada ejercicios.
  
  Este trabajo se realiza para la materia ___*Desarrollo de Proyectos*___ y aunque su propósito es académico, se invita a hacer uso de la información en cualquier contexto que sea aplicable respetando la autoría y privacidad de los datos. 
 
-Para mayor detalles e información consultar [LICENCE](../LICENSE).
+Para más detalles e información consultar [LICENCE](../LICENSE).
