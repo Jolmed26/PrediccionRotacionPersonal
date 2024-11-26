@@ -24,12 +24,36 @@ Finalmente, la visualización de datos permitió determinar que los empleados au
 ## Resultados 📝
 
 
-# [Análisis de texto ✍️](result/analisis_sentimientos)
+# [Análisis de texto ✍️](results/analisis_sentimientos)
 
 El análisis de texto se compone de 3 secciones; N-grams para detectar patrones, análisis de sentimientos para detectar carga positiva o negativa en los comentarios y una _word cloud_ para visualizar las palabras más comunes.
 
 ## Resultados 📝
 
+En N-grams se detectó que los empleados en su mayoría abandonan su trabajo al encontrar una mejor oferta laboral, o por problemas familiares o son despedidas por su bajo desempeño laboral.
+
+| Token 1      | Token 2       | Frecuencia | Bigram               |
+|--------------|---------------|------------|----------------------|
+| mejor        | oferta        | 32         | mejor oferta         |
+| problemas    | familiares    | 19         | problemas familiares |
+| bajo         | desempeño     | 13         | bajo desempeño       |
+| temas        | personales    | 9          | temas personales     |
+| problema     | familiar      | 7          | problema familiar    |
+
+Del análisis de sentimientos se detectó que la mayoría de párrafos tenían una conotación negativa aunque se cuestiona el resultado pudiera ser discutido ya que los motivos son más bien postulados que no se prestan a un análisis más profundo.
+
+| Paragraph                                                  | Polarity | Subjectivity |
+|------------------------------------------------------------|----------|--------------|
+| PROBLEMA PERSONAL                                          | 0.000    | 0.30         |
+| CONFLICTO FAMILIAR CON UNA COMPAÑERA                       | 0.375    | 0.50         |
+| PROBLEMA FAMILIAR                                          | 0.375    | 0.50         |
+| COMENTA QUE DONDE TOMA EL TRANSPORTE DE COOL P...          | 0.350    | 0.65         |
+| PARA TRABAJAR EN LA MISMA EMPRESA A LA QUE ENTR...         | 0.350    | 0.65         |
+| PROBLEMA PERSONAL                                          | 0.000    | 0.30         |
+
+Finalmente, abajo se deja el wordcloud para su visualizaicón:
+
+<img src="results/analisis_sentimientos/analisis_sentimientos_wordcloud.png" alt="image" width="50%">
 
 
 # Estructura de repositorio 🗂️
