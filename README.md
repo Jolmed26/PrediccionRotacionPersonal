@@ -53,7 +53,7 @@ Del análisis de sentimientos se detectó que la mayoría de párrafos tenían u
 
 Finalmente, abajo se deja el wordcloud para su visualizaicón:
 
-<img src="results/analisis_sentimientos/analisis_sentimientos_wordcloud.png" alt="image" width="50%">
+<img src="results/analisis_sentimientos/analisis_sentimientos_wordcloud.png" alt="image" width="75%">
 
 
 # Estructura de repositorio 🗂️
