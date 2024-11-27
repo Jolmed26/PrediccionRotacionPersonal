@@ -22,6 +22,88 @@ Finalmente, la visualización de datos permitió determinar que los empleados au
 # [Visualizaciones interactivas con Altair 📈](results/visuales_altair)
 
 ## Resultados 📝
+Este análisis se centró en crear visualizaciones para responder preguntas clave relacionadas con la dinámica laboral y salarial, proporcionando información valiosa para la toma de decisiones estratégicas en el negocio.
+
+### 1.-Salario por género
+Se observó que los hombres tienen un salario promedio ligeramente más alto que las mujeres, aunque la diferencia es mínima.
+
+| GENERO    |   SALARIO MENSUAL |
+|:----------|------------------:|
+| FEMENINO  |            7409.3 |
+| MASCULINO |            8116.1 |
+
+### 2.-Renuncias por género
+Las mujeres presentan tasas de renuncia más altas, destacando que las renuncias voluntarias son las más comunes. Esto podría estar relacionado con los bajos salarios que las impulsan a buscar mejores oportunidades.
+
+| GENERO    | Tipo de renuncia   |   Número de Renuncias |
+|:----------|:-------------------|----------------------:|
+| FEMENINO  | ABANDONO           |                    62 |
+| FEMENINO  | ACTIVO             |                    59 |
+| FEMENINO  | BAJA               |                    25 |
+| FEMENINO  | VOLUNTARIA         |                   117 |
+| MASCULINO | ABANDONO           |                    53 |
+| MASCULINO | ACTIVO             |                    43 |
+| MASCULINO | BAJA               |                    25 |
+| MASCULINO | VOLUNTARIA         |                   110 |
+
+### 3.-Salarios por departamento
+El puesto de operador de prensa tiene uno de los salarios más altos, alcanzando hasta 18,000 pesos mensuales. Esto podría deberse a la experiencia o al tiempo de antigüedad en la empresa.
+
+| PUESTO           |   SALARIO MENSUAL |
+|:-----------------|------------------:|
+| AUXILIAR ALMACEN |           8541.43 |
+| INSP CALIDAD     |           7785.58 |
+| MECANICO         |          12101.1  |
+| MONTACARGUISTA   |          10107.4  |
+| OP PRENSA        |           7912.08 |
+| OP PRODUCCION    |           7157.84 |
+
+### 4.-Duración en los puestos por departamento
+Los departamentos con el mínimo valor de tiempo de permanencia más bajo son ALMACEN, PRENSA y PRODUCCION, todos con un mínimo de 1. Esto indica que en esos departamentos se ha registrado el menor tiempo de permanencia de una persona, es decir, al menos una persona dejó el departamento después de estar solo 1 unidad de tiempo (probablemente en días o meses).
+
+| AREA          |   Min |    Q1 |   Mediana |     Q3 |   Max |
+|:--------------|------:|------:|----------:|-------:|------:|
+| ALMACEN       |     1 | 20.75 |      41.5 | 205    |   818 |
+| CALIDAD       |     3 | 14.25 |      29.5 |  87    |   855 |
+| MANTENIMIENTO |    17 | 28.5  |      62   | 142.25 |   514 |
+| PRENSA        |     1 | 19    |      22   |  29    |   533 |
+| PRODUCCION    |     1 | 20    |      44   | 155    |  1053 |
+
+
+### 5.-Edad y bajas laborales
+Las bajas son más frecuentes entre los 30 y 35 años. A partir de esta edad, la probabilidad de renuncia disminuye considerablemente.
+
+| RANGO DE EDAD   |   Número de Bajas |
+|:----------------|------------------:|
+| 0-19            |                 4 |
+| 20-29           |               127 |
+| 30-39           |               291 |
+| 40-49           |                44 |
+| 50-59           |                26 |
+| 60-69           |                 2 |
+| 70-79           |                 0 |
+| 80-89           |                 0 |
+| 90-100          |                 0 |
+
+### 6.-Salarios por municipio
+Tlajomulco registra los salarios más altos, posiblemente debido a la presencia de empresas de alto nivel en sectores como el farmacéutico, electrónico y manufacturero.
+
+| MUNICIPIO              |   SALARIO MENSUAL |
+|:-----------------------|------------------:|
+| TLAJOMULCO             |          16300    |
+| CD GUZMAN              |          11200    |
+| ZAMORA                 |          10065    |
+| ZAPOPAN                |           8862.5  |
+| SAN JUAN DE LOS ARCOS  |           8400    |
+| AHUISCULCO             |           8100    |
+| HUAXTLA                |           7700    |
+| TALA                   |           7650.08 |
+| BUENA VISTA            |           7500    |
+| LA VENTA DEL ASTILLERO |           7500    |
+| EL ARENAL              |           6750    |
+
+Estas visualizaciones proporcionan una base sólida para entender los patrones salariales, las renuncias y las dinámicas laborales dentro de la organización, facilitando el diseño de estrategias más efectivas.
+
 
 
 # [Análisis de texto ✍️](results/analisis_sentimientos)
