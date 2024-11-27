@@ -21,8 +21,9 @@ Finalmente, la visualización de datos permitió determinar que los empleados au
 
 # [Visualizaciones interactivas con Altair 📈](results/visuales_altair)
 
-## Resultados 📝
 Este análisis se centró en crear visualizaciones para responder preguntas clave relacionadas con la dinámica laboral y salarial, proporcionando información valiosa para la toma de decisiones estratégicas en el negocio.
+
+## Resultados 📝
 
 ### 1.-Salario por género
 Se observó que los hombres tienen un salario promedio ligeramente más alto que las mujeres, aunque la diferencia es mínima.
