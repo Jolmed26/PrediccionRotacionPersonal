@@ -14,10 +14,26 @@ Se ralizó un análisis exploratorio de datos con el objetivo de limpiar el set 
 
 Al iniciar el análisis exploratorio de datos, la base de datos tenía 16 variables, 502 entradas y 948 valores nulos, luego del proceso de limpieza de datos se concluyó con 14 variables, 495 registros y 0 valores núlos.
 
-Se eliminaron las variables salario diario, ya que existe salario mensual y ambas aportan la misma información, y motivo de renuncia, que por su cantidad de valores faltantes y tratarse de texto abierto, su análisis va más allá del alcance de este estudio.
+Se eliminaron las variables salario diario, ya que existe salario mensual y ambas aportan la misma información y motivo de renuncia, ya que al tratarse de texto abierto, su análisis va más allá del alcance esta sección, no obstante, se realizó otro set de datos únicamente con esta variable pare realizar un análisis apropiado con ella en la sección final.
+
+| Variable                | Valores Únicos |
+|-------------------------|----------------|
+| FECHA DE INGRESO        | 233            |
+| FECHA ULTIMO REGISTRO   | 250            |
+| Estatus                 | 2              |
+| Días Laborados          | 178            |
+| FECHA DE NACIMIENTO     | 278            |
+| No de Crédito Infonavit | 2              |
+| PUESTO                  | 6              |
+| AREA                    | 5              |
+| TURNO                   | 4              |
+| MUNICIPIO               | 11             |
+| SALARIO MENSUAL         | 22             |
+| ESCOLARIDAD             | 12             |
+| GENERO                  | 2              |
+| Tipo de renuncia        | 4              |
 
 Finalmente, la visualización de datos permitió determinar que los empleados auxiliares de almacén son los que tienen una mayor rotación de personal y el personal que rola turno suele trabajar menos de 100 días antes de abandonar la empresa y que no existe una diferencia significativa entre el abandono de trabajo y el género.
-
 
 # [Visualizaciones interactivas con Altair 📈](results/visuales_altair)
 
