@@ -14,7 +14,7 @@ Otro análisis se enfocó en identificar qué departamento tiene el nivel salari
 
 ![image](https://github.com/user-attachments/assets/071ec1a3-7c8b-4b8a-b7b0-66b32b1d4d6c)
 
-También se exploró la duración promedio del personal en sus puestos, clasificada por departamento. Los resultados mostraron que el área de calidad es donde las personas tienden a permanecer menos tiempo.
+También se exploró la duración promedio del personal en sus puestos, clasificada por departamento. Los departamentos con el mínimo valor de tiempo de permanencia más bajo son ALMACEN, PRENSA y PRODUCCION, todos con un mínimo de 1. Esto indica que en esos departamentos se ha registrado el menor tiempo de permanencia de una persona, es decir, al menos una persona dejó el departamento después de estar solo 1 unidad de tiempo (probablemente en días o meses).
 
 ![image](https://github.com/user-attachments/assets/fbefe81c-f649-4861-b93f-d547535f3824)
 
