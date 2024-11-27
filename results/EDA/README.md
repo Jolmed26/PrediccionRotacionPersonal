@@ -10,7 +10,33 @@ La variable objetivo contiene dos valores: "baja" y "activo", y no tiene valores
 
 En la variable "Crédito Infonavit" se detectaron valores inconsistentes como 'Si', 'NO', 'NO ' y 'SI', los cuales se unificaron en dos categorías. Además, se identificaron 6 puestos distintos, de los cuales uno correspondía a intendencia. Como este análisis se enfoca en empleados de producción, se excluyeron los registros de intendencia.
 
+
+| PUESTO            | Días Laborados |
+|-------------------|----------------|
+| AUXILIAR ALMACEN  | 220            |
+| INSP CALIDAD      | 134            |
+| MECANICO          | 128            |
+| MONTACARGUISTA    | 165            |
+| OP PRENSA         | 43             |
+| OP PRODUCCION     | 151            |
+
+
 En la variable "municipio", se identificó la presencia de "Jalisco", que no es un municipio. Sin embargo, se asumió que se trataba de Zapopan.
+
+| Municipio               | Frecuencia |
+|-------------------------|------------|
+| TALA                    | 458        |
+| ZAPOPAN                 | 12         |
+| EL ARENAL               | 10         |
+| TLAJOMULCO              | 3          |
+| HUAXTLA                 | 3          |
+| LA VENTA DEL ASTILLERO  | 2          |
+| ZAMORA                  | 2          |
+| CD GUZMAN               | 2          |
+| AHUISCULCO              | 1          |
+| BUENA VISTA             | 1          |
+| SAN JUAN DE LOS ARCOS   | 1          |
+
 
 Los salarios, tanto diarios como mensuales, también presentaban valores nulos, y algunos estaban por debajo del salario mínimo vigente en el momento de la contratación. Estos valores fueron rellenados con la media.
 
@@ -18,12 +44,23 @@ Estos cambios son algunos de los más relevantes en el proceso de limpieza de da
 
 En primer lugar, se observó que la mayor cantidad de ingresos ocurrió en enero de 2022, coincidiendo con el regreso a la "nueva normalidad" tras la pandemia de COVID-19.
 
+
+
 La mayoría de los registros corresponden a empleados que ya han abandonado la empresa, con un total de 425 registros, mientras que 70 empleados siguen activos.
 
 Los empleados trabajan en promedio 229 días en la empresa, aunque la mayoría trabaja menos de 100 días. Además, en promedio, los empleados nacieron en 1991 y la mayoría son menores de 35 años y operadores de producción.
 
+| TURNO | Días Laborados |
+|-------|----------------|
+| A     | 131            |
+| B     | 121            |
+| C     | 111            |
+| ROLA  | 101            |
+
 La información más relevante de este análisis exploratorio es que los empleados con más tiempo en sus puestos son los auxiliares de almacén, mientras que los operadores de producción tienen el menor tiempo en la empresa. No se observó una diferencia significativa entre los distintos turnos, aunque los empleados que rotan turnos presentaron una mayor rotación. En cuanto a la formación académica, los empleados con menor rotación son aquellos que están cursando la secundaria o han concluido la preparatoria, mientras que los de mayor rotación son aquellos con secundaria incompleta o que están cursando la preparatoria.
 
 Finalmente, se realizó un mapa de calor para analizar si existía alguna correlación entre el sueldo y los días laborados, obteniendo un valor de -0.016. Esto indica que no se puede confirmar una correlación significativa entre estas variables numéricas.
+
+<img src="EDA_correlacion.png" alt="image" width="65%">
 
 En conclusión, este análisis inicial sienta las bases para estudios posteriores que buscarán predecir la rotación de personal, tomando como referencia las variables discutidas en este apartado.
