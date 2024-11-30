@@ -1,6 +1,6 @@
 # Predicción de Rotación de Personal en Empresas Manufactureras de Tala, Jalisco 📊
 
-En este repositorio se pretende desarrollar un modelo predictivo para la rotación de personal para empresas manufacturereras.
+En este repositorio se pretende desarrollar un modelo predictivo para la rotación de personal para empresas manufactureras.
 
 # Abstract 📝
 
@@ -8,7 +8,7 @@ En México la industria manufacturera presenta un alto porcentaje de rotación d
 
 # [Análisis exploratorio de datos (EDA) 🔍](results/EDA)
 
-Se ralizó un análisis exploratorio de datos con el objetivo de limpiar el set de datos inicial y detectar variables y relaciones valiosas.
+Se realizó un análisis exploratorio de datos con el objetivo de limpiar el set de datos inicial y detectar variables y relaciones valiosas.
 
 ## Resultados 📝
 
@@ -139,7 +139,7 @@ En N-grams se detectó que los empleados en su mayoría abandonan su trabajo al 
 | temas        | personales    | 9          | temas personales     |
 | problema     | familiar      | 7          | problema familiar    |
 
-Del análisis de sentimientos se detectó que la mayoría de párrafos tenían una conotación negativa aunque se cuestiona el resultado pudiera ser discutido ya que los motivos son más bien postulados que no se prestan a un análisis más profundo.
+Del análisis de sentimientos se detectó que la mayoría de párrafos tenían una connotación negativa aunque se cuestiona el resultado pudiera ser discutido ya que los motivos son más bien postulados que no se prestan a un análisis más profundo.
 
 | Paragraph                                                  | Polarity | Subjectivity |
 |------------------------------------------------------------|----------|--------------|
@@ -172,7 +172,7 @@ Finalmente, abajo se deja el wordcloud para su visualización:
     |    |── analisis_sentimientos                      <- Directorio análisis de texto.
     |    |   |──  anal_sent_biagram_frec.png            <- Análisis de sentimientos Biagram.
     |    |   |──  analisis_sent.png                     <- Análisis de sentimientos polaridad.
-    |    |   |──  analisis_sentimientos_Biagram.png     <- Análisis de sentimientos biagrama relaciones.
+    |    |   |──  analisis_sentimientos_Biagram.png     <- Análisis de sentimientos diagrama relaciones.
     |    |   |──  analisis_sentimientos_wordcloud.png   <- Análisis de sentimientos wordcloud.
     |    |   └──  README.md                             <- Resultados escritos del análisis de texto.
     |    |
@@ -185,7 +185,7 @@ Finalmente, abajo se deja el wordcloud para su visualización:
     |    |── EDA.ipynb                                  <- Archivo de código con análisis EDA.
     |    |── EDA_Analisis_sentimientos.ipynb            <- Archivo de código con análisis EDA de texto.
     |    |── analisis_sentimientos.ipynb                <- Archivo de código con análisis de texto.
-    |    |── visual_altair.ipynb                        <- Archivo de código con análisis EDA implementando graficos de Altair Gallery
+    |    |── visual_altair.ipynb                        <- Archivo de código con análisis EDA implementando gráficos de Altair Gallery
     |    └── README.md                                  <- Descripción general del contenido del directorio.
     |
     ├── CITATION.md                                     <- Cómo citar el proyecto.  
