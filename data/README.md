@@ -1,6 +1,6 @@
 # Carpeta con bases de datos originales 📂
 
-La fuente de datos de este trabajo es **estrucurada** en formato xlsx. Los datos son **privados** y se eliminó toda la información sensible por privacidad de los datos. Esta base de datos contiene información sobre rotación de personal en empresas manufactureras de Tala, Jalisco. 
+La fuente de datos de este trabajo es **estructurada** en formato xlsx. Los datos son **privados** y se eliminó toda la información sensible por privacidad de los datos. Esta base de datos contiene información sobre rotación de personal en empresas manufactureras de Tala, Jalisco. 
 
 Se trata de una base de datos transversal que comprende del 20 de abril del 2021 al 30 de abril del 2024.
 
