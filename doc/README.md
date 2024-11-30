@@ -4,7 +4,7 @@ México, de acuerdo con Guadarrama (2023) es el país de América Latina con may
 
 # Objetivos 🎯
 
-1. Determinar de los algoritmoss supervisados k medias, regresión logística, arboles de decisión, random forest, support vector machine y Naive Bayes cuál predice con mayor eficiencia la rotación de personal en empresas manufactureras de Tala, Jalisco. 
+1. Determinar de los algoritmoss supervisados k medias, regresión logística, árboles de decisión, random forest, support vector machine y Naive Bayes cuál predice con mayor eficiencia la rotación de personal en empresas manufactureras de Tala, Jalisco. 
 
 2. Realizar un análisis de texto para identificar qué motiva a un empleado a abandonar la empresa.
 
