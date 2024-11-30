@@ -1,8 +1,8 @@
 # Carpeta con archivos de resultados 📝
 
-Esta carpeta contiene los resultados obtenidos de cada ejercicios.  
+Esta carpeta contiene los resultados obtenidos de cada ejercicio.  
 
- __EDA:__ analisis exploratorio, data set limpio resultante del análisis EDA.
+ __EDA:__ análisis exploratorio, data set limpio resultante del análisis EDA.
 
  __analisis_sentimientos:__ plots de análisis de sentimientos, data set de texto limpio para análisis de sentimientos.
 
